@@ -1,0 +1,471 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e6]:
+      - link "Atomic CRM Atomic CRM" [ref=e7] [cursor=pointer]:
+        - /url: "#/"
+        - img "Atomic CRM" [ref=e8]
+        - heading "Atomic CRM" [level=1] [ref=e9]
+      - navigation [ref=e11]:
+        - link "Dashboard" [ref=e12] [cursor=pointer]:
+          - /url: "#/"
+        - link "Contacts" [active] [ref=e13] [cursor=pointer]:
+          - /url: "#/contacts"
+        - link "Companies" [ref=e14] [cursor=pointer]:
+          - /url: "#/companies"
+        - link "Deals" [ref=e15] [cursor=pointer]:
+          - /url: "#/deals"
+      - generic [ref=e16]:
+        - button "Toggle theme" [ref=e17] [cursor=pointer]:
+          - img
+          - generic [ref=e18]: Toggle theme
+        - button [ref=e19] [cursor=pointer]:
+          - img
+        - button [ref=e20] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - heading [level=2]
+      - generic [ref=e24]:
+        - button "Sort by last seen descending" [ref=e25] [cursor=pointer]:
+          - img
+          - generic [ref=e26]: Sort by last seen descending
+          - img
+        - button "Import" [ref=e27] [cursor=pointer]:
+          - img
+          - text: Import
+        - button "Export" [ref=e28] [cursor=pointer]:
+          - img
+          - text: Export
+        - link "Create" [ref=e29] [cursor=pointer]:
+          - /url: "#/contacts/create"
+          - img
+          - text: Create
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e34]:
+          - group [ref=e35]:
+            - textbox "Search name, company..." [ref=e36]
+          - img
+        - generic [ref=e37]:
+          - heading "Last activity" [level=3] [ref=e38]:
+            - img [ref=e39]
+            - text: Last activity
+          - generic [ref=e42]:
+            - button "Today" [ref=e43] [cursor=pointer]
+            - button "This week" [ref=e44] [cursor=pointer]
+            - button "Before this week" [ref=e45] [cursor=pointer]
+            - button "Before this month" [ref=e46] [cursor=pointer]
+            - button "Before last month" [ref=e47] [cursor=pointer]
+        - generic [ref=e48]:
+          - heading "Status" [level=3] [ref=e49]:
+            - img [ref=e50]
+            - text: Status
+          - generic [ref=e53]:
+            - button "Cold Cold" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]:
+                - text: Cold
+                - generic [ref=e56]:
+                  - generic: Cold
+            - button "Warm Warm" [ref=e58] [cursor=pointer]:
+              - generic [ref=e59]:
+                - text: Warm
+                - generic [ref=e60]:
+                  - generic: Warm
+            - button "Hot Hot" [ref=e62] [cursor=pointer]:
+              - generic [ref=e63]:
+                - text: Hot
+                - generic [ref=e64]:
+                  - generic: Hot
+            - button "In Contract In Contract" [ref=e66] [cursor=pointer]:
+              - generic [ref=e67]:
+                - text: In Contract
+                - generic [ref=e68]:
+                  - generic: In Contract
+        - generic [ref=e70]:
+          - heading "Tags" [level=3] [ref=e71]:
+            - img [ref=e72]
+            - text: Tags
+          - generic [ref=e75]:
+            - button "football-fan" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: football-fan
+            - button "holiday-card" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: holiday-card
+            - button "influencer" [ref=e80] [cursor=pointer]:
+              - generic [ref=e81]: influencer
+            - button "manager" [ref=e82] [cursor=pointer]:
+              - generic [ref=e83]: manager
+            - button "musician" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]: musician
+            - button "vip" [ref=e86] [cursor=pointer]:
+              - generic [ref=e87]: vip
+        - generic [ref=e88]:
+          - heading "Tasks" [level=3] [ref=e89]:
+            - img [ref=e90]
+            - text: Tasks
+          - button "With pending tasks" [ref=e94] [cursor=pointer]
+        - generic [ref=e95]:
+          - heading "Account Manager" [level=3] [ref=e96]:
+            - img [ref=e97]
+            - text: Account Manager
+          - button "Me" [ref=e103] [cursor=pointer]
+      - generic [ref=e106]:
+        - link "DF Devin Farrell Innovative at Erdman, Lehner and Green vip holiday-card last activity today at 5:02 AM Cold" [ref=e107] [cursor=pointer]:
+          - /url: "#/contacts/301/show"
+          - checkbox [ref=e108]
+          - generic [ref=e110]: DF
+          - generic [ref=e111]:
+            - generic [ref=e112]: Devin Farrell
+            - generic [ref=e113]:
+              - text: Innovative at Erdman, Lehner and Green
+              - generic [ref=e116]:
+                - generic [ref=e117]: vip
+                - generic [ref=e118]: holiday-card
+          - generic "2026-01-21T05:02:00.600Z" [ref=e120]:
+            - text: last activity today at 5:02 AM
+            - generic [ref=e121]:
+              - generic: Cold
+        - link "Norma Reichel Frictionless at Waters LLC - 2 tasks vip last activity today at 4:43 AM Hot" [ref=e123] [cursor=pointer]:
+          - /url: "#/contacts/219/show"
+          - checkbox [ref=e124]
+          - img [ref=e126]
+          - generic [ref=e127]:
+            - generic [ref=e128]: Norma Reichel
+            - generic [ref=e129]:
+              - text: Frictionless at Waters LLC - 2 tasks
+              - generic [ref=e133]: vip
+          - generic "2026-01-21T04:43:51.276Z" [ref=e135]:
+            - text: last activity today at 4:43 AM
+            - generic [ref=e136]:
+              - generic: Hot
+        - link "MO Mabel Osinski Leading-edge at Dooley, Bogisich and Pouros - 1 task holiday-card last activity today at 4:19 AM Cold" [ref=e138] [cursor=pointer]:
+          - /url: "#/contacts/492/show"
+          - checkbox [ref=e139]
+          - generic [ref=e141]: MO
+          - generic [ref=e142]:
+            - generic [ref=e143]: Mabel Osinski
+            - generic [ref=e144]:
+              - text: Leading-edge at Dooley, Bogisich and Pouros - 1 task
+              - generic [ref=e148]: holiday-card
+          - generic "2026-01-21T04:19:34.258Z" [ref=e150]:
+            - text: last activity today at 4:19 AM
+            - generic [ref=e151]:
+              - generic: Cold
+        - link "VO Vivian Ortiz Sticky at Willms Inc - 1 task vip manager last activity today at 4:14 AM In Contract" [ref=e153] [cursor=pointer]:
+          - /url: "#/contacts/466/show"
+          - checkbox [ref=e154]
+          - generic [ref=e156]: VO
+          - generic [ref=e157]:
+            - generic [ref=e158]: Vivian Ortiz
+            - generic [ref=e159]:
+              - text: Sticky at Willms Inc - 1 task
+              - generic [ref=e162]:
+                - generic [ref=e163]: vip
+                - generic [ref=e164]: manager
+          - generic "2026-01-21T04:14:16.933Z" [ref=e166]:
+            - text: last activity today at 4:14 AM
+            - generic [ref=e167]:
+              - generic: In Contract
+        - link "OM Ophelia Murphy Leading-edge at Erdman, Lehner and Green - 1 task last activity today at 4:12 AM Warm" [ref=e169] [cursor=pointer]:
+          - /url: "#/contacts/81/show"
+          - checkbox [ref=e170]
+          - generic [ref=e172]: OM
+          - generic [ref=e173]:
+            - generic [ref=e174]: Ophelia Murphy
+            - generic [ref=e175]: Leading-edge at Erdman, Lehner and Green - 1 task
+          - generic "2026-01-21T04:12:37.048Z" [ref=e177]:
+            - text: last activity today at 4:12 AM
+            - generic [ref=e178]:
+              - generic: Warm
+        - link "BC Berniece Corwin Customized at Wisozk LLC last activity today at 4:10 AM In Contract" [ref=e180] [cursor=pointer]:
+          - /url: "#/contacts/409/show"
+          - checkbox [ref=e181]
+          - generic [ref=e183]: BC
+          - generic [ref=e184]:
+            - generic [ref=e185]: Berniece Corwin
+            - generic [ref=e186]: Customized at Wisozk LLC
+          - generic "2026-01-21T04:10:49.195Z" [ref=e188]:
+            - text: last activity today at 4:10 AM
+            - generic [ref=e189]:
+              - generic: In Contract
+        - link "Pat D'Amore 24/365 at Okuneva, Hagenes and Tromp - 2 tasks last activity today at 3:45 AM Cold" [ref=e191] [cursor=pointer]:
+          - /url: "#/contacts/184/show"
+          - checkbox [ref=e192]
+          - img [ref=e194]
+          - generic [ref=e195]:
+            - generic [ref=e196]: Pat D'Amore
+            - generic [ref=e197]: 24/365 at Okuneva, Hagenes and Tromp - 2 tasks
+          - generic "2026-01-21T03:45:47.093Z" [ref=e199]:
+            - text: last activity today at 3:45 AM
+            - generic [ref=e200]:
+              - generic: Cold
+        - link "IJ Irving Jakubowski Integrated at Erdman, Lehner and Green holiday-card football-fan last activity today at 3:35 AM Warm" [ref=e202] [cursor=pointer]:
+          - /url: "#/contacts/297/show"
+          - checkbox [ref=e203]
+          - generic [ref=e205]: IJ
+          - generic [ref=e206]:
+            - generic [ref=e207]: Irving Jakubowski
+            - generic [ref=e208]:
+              - text: Integrated at Erdman, Lehner and Green
+              - generic [ref=e211]:
+                - generic [ref=e212]: holiday-card
+                - generic [ref=e213]: football-fan
+          - generic "2026-01-21T03:35:45.039Z" [ref=e215]:
+            - text: last activity today at 3:35 AM
+            - generic [ref=e216]:
+              - generic: Warm
+        - link "RS Roselyn Schroeder Web-enabled at Dooley, Bogisich and Pouros manager influencer last activity today at 3:13 AM Warm" [ref=e218] [cursor=pointer]:
+          - /url: "#/contacts/43/show"
+          - checkbox [ref=e219]
+          - generic [ref=e221]: RS
+          - generic [ref=e222]:
+            - generic [ref=e223]: Roselyn Schroeder
+            - generic [ref=e224]:
+              - text: Web-enabled at Dooley, Bogisich and Pouros
+              - generic [ref=e227]:
+                - generic [ref=e228]: manager
+                - generic [ref=e229]: influencer
+          - generic "2026-01-21T03:13:56.686Z" [ref=e231]:
+            - text: last activity today at 3:13 AM
+            - generic [ref=e232]:
+              - generic: Warm
+        - link "ML Manuel Leannon User-centric at Gerhold, Kuhlman and Wiegand - 1 task holiday-card last activity today at 3:04 AM Cold" [ref=e234] [cursor=pointer]:
+          - /url: "#/contacts/257/show"
+          - checkbox [ref=e235]
+          - generic [ref=e237]: ML
+          - generic [ref=e238]:
+            - generic [ref=e239]: Manuel Leannon
+            - generic [ref=e240]:
+              - text: User-centric at Gerhold, Kuhlman and Wiegand - 1 task
+              - generic [ref=e244]: holiday-card
+          - generic "2026-01-21T03:04:45.211Z" [ref=e246]:
+            - text: last activity today at 3:04 AM
+            - generic [ref=e247]:
+              - generic: Cold
+        - link "WL Wilfred Langosh Ubiquitous at Gerhold, Kuhlman and Wiegand - 1 task holiday-card last activity today at 2:53 AM Hot" [ref=e249] [cursor=pointer]:
+          - /url: "#/contacts/98/show"
+          - checkbox [ref=e250]
+          - generic [ref=e252]: WL
+          - generic [ref=e253]:
+            - generic [ref=e254]: Wilfred Langosh
+            - generic [ref=e255]:
+              - text: Ubiquitous at Gerhold, Kuhlman and Wiegand - 1 task
+              - generic [ref=e259]: holiday-card
+          - generic "2026-01-21T02:53:16.187Z" [ref=e261]:
+            - text: last activity today at 2:53 AM
+            - generic [ref=e262]:
+              - generic: Hot
+        - link "RM Remington Monahan Holistic at Heidenreich, Ferry and Johns influencer last activity today at 2:52 AM Cold" [ref=e264] [cursor=pointer]:
+          - /url: "#/contacts/158/show"
+          - checkbox [ref=e265]
+          - generic [ref=e267]: RM
+          - generic [ref=e268]:
+            - generic [ref=e269]: Remington Monahan
+            - generic [ref=e270]:
+              - text: Holistic at Heidenreich, Ferry and Johns
+              - generic [ref=e274]: influencer
+          - generic "2026-01-21T02:52:48.394Z" [ref=e276]:
+            - text: last activity today at 2:52 AM
+            - generic [ref=e277]:
+              - generic: Cold
+        - link "Holden Vandervort Plug-and-play at Willms Inc - 1 task last activity today at 2:10 AM Warm" [ref=e279] [cursor=pointer]:
+          - /url: "#/contacts/351/show"
+          - checkbox [ref=e280]
+          - img [ref=e282]
+          - generic [ref=e283]:
+            - generic [ref=e284]: Holden Vandervort
+            - generic [ref=e285]: Plug-and-play at Willms Inc - 1 task
+          - generic "2026-01-21T02:10:22.602Z" [ref=e287]:
+            - text: last activity today at 2:10 AM
+            - generic [ref=e288]:
+              - generic: Warm
+        - link "PF Paul Fisher Clicks-and-mortar at Blick, Wiza and Keeling - 1 task holiday-card influencer last activity today at 2:10 AM Cold" [ref=e290] [cursor=pointer]:
+          - /url: "#/contacts/207/show"
+          - checkbox [ref=e291]
+          - generic [ref=e293]: PF
+          - generic [ref=e294]:
+            - generic [ref=e295]: Paul Fisher
+            - generic [ref=e296]:
+              - text: Clicks-and-mortar at Blick, Wiza and Keeling - 1 task
+              - generic [ref=e299]:
+                - generic [ref=e300]: holiday-card
+                - generic [ref=e301]: influencer
+          - generic "2026-01-21T02:10:02.975Z" [ref=e303]:
+            - text: last activity today at 2:10 AM
+            - generic [ref=e304]:
+              - generic: Cold
+        - link "Danny Fadel Sexy at Gerhold, Kuhlman and Wiegand influencer last activity today at 1:26 AM Warm" [ref=e306] [cursor=pointer]:
+          - /url: "#/contacts/402/show"
+          - checkbox [ref=e307]
+          - img [ref=e309]
+          - generic [ref=e310]:
+            - generic [ref=e311]: Danny Fadel
+            - generic [ref=e312]:
+              - text: Sexy at Gerhold, Kuhlman and Wiegand
+              - generic [ref=e316]: influencer
+          - generic "2026-01-21T01:26:55.536Z" [ref=e318]:
+            - text: last activity today at 1:26 AM
+            - generic [ref=e319]:
+              - generic: Warm
+        - link "TG Tressa Gutmann Rich at Blick, Wiza and Keeling - 2 tasks football-fan influencer last activity today at 12:26 AM Cold" [ref=e321] [cursor=pointer]:
+          - /url: "#/contacts/135/show"
+          - checkbox [ref=e322]
+          - generic [ref=e324]: TG
+          - generic [ref=e325]:
+            - generic [ref=e326]: Tressa Gutmann
+            - generic [ref=e327]:
+              - text: Rich at Blick, Wiza and Keeling - 2 tasks
+              - generic [ref=e330]:
+                - generic [ref=e331]: football-fan
+                - generic [ref=e332]: influencer
+          - generic "2026-01-21T00:26:24.351Z" [ref=e334]:
+            - text: last activity today at 12:26 AM
+            - generic [ref=e335]:
+              - generic: Cold
+        - link "PC Pat Corkery Revolutionary at Blick, Wiza and Keeling last activity yesterday at 11:26 PM Cold" [ref=e337] [cursor=pointer]:
+          - /url: "#/contacts/419/show"
+          - checkbox [ref=e338]
+          - generic [ref=e340]: PC
+          - generic [ref=e341]:
+            - generic [ref=e342]: Pat Corkery
+            - generic [ref=e343]: Revolutionary at Blick, Wiza and Keeling
+          - generic "2026-01-20T23:26:57.918Z" [ref=e345]:
+            - text: last activity yesterday at 11:26 PM
+            - generic [ref=e346]:
+              - generic: Cold
+        - link "MT Mona Turner Web-enabled at Lueilwitz, Reichel and Rempel - 1 task last activity yesterday at 11:13 PM Cold" [ref=e348] [cursor=pointer]:
+          - /url: "#/contacts/204/show"
+          - checkbox [ref=e349]
+          - generic [ref=e351]: MT
+          - generic [ref=e352]:
+            - generic [ref=e353]: Mona Turner
+            - generic [ref=e354]: Web-enabled at Lueilwitz, Reichel and Rempel - 1 task
+          - generic "2026-01-20T23:13:02.760Z" [ref=e356]:
+            - text: last activity yesterday at 11:13 PM
+            - generic [ref=e357]:
+              - generic: Cold
+        - link "Jedidiah Cruickshank Extensible at Hermiston - Ryan - 2 tasks musician last activity yesterday at 9:49 PM Cold" [ref=e359] [cursor=pointer]:
+          - /url: "#/contacts/68/show"
+          - checkbox [ref=e360]
+          - img [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Jedidiah Cruickshank
+            - generic [ref=e365]:
+              - text: Extensible at Hermiston - Ryan - 2 tasks
+              - generic [ref=e369]: musician
+          - generic "2026-01-20T21:49:59.298Z" [ref=e371]:
+            - text: last activity yesterday at 9:49 PM
+            - generic [ref=e372]:
+              - generic: Cold
+        - link "JH Jody Hilll Plug-and-play at Gerhold, Kuhlman and Wiegand last activity yesterday at 9:10 PM Hot" [ref=e374] [cursor=pointer]:
+          - /url: "#/contacts/157/show"
+          - checkbox [ref=e375]
+          - generic [ref=e377]: JH
+          - generic [ref=e378]:
+            - generic [ref=e379]: Jody Hilll
+            - generic [ref=e380]: Plug-and-play at Gerhold, Kuhlman and Wiegand
+          - generic "2026-01-20T21:10:30.050Z" [ref=e382]:
+            - text: last activity yesterday at 9:10 PM
+            - generic [ref=e383]:
+              - generic: Hot
+        - link "AC Arvid Connelly Compelling at Dooley - Goldner musician last activity yesterday at 7:48 PM Cold" [ref=e385] [cursor=pointer]:
+          - /url: "#/contacts/198/show"
+          - checkbox [ref=e386]
+          - generic [ref=e388]: AC
+          - generic [ref=e389]:
+            - generic [ref=e390]: Arvid Connelly
+            - generic [ref=e391]:
+              - text: Compelling at Dooley - Goldner
+              - generic [ref=e395]: musician
+          - generic "2026-01-20T19:48:37.818Z" [ref=e397]:
+            - text: last activity yesterday at 7:48 PM
+            - generic [ref=e398]:
+              - generic: Cold
+        - link "GS Gretchen Schultz One-to-one at Schinner - Farrell last activity yesterday at 7:02 PM Hot" [ref=e400] [cursor=pointer]:
+          - /url: "#/contacts/282/show"
+          - checkbox [ref=e401]
+          - generic [ref=e403]: GS
+          - generic [ref=e404]:
+            - generic [ref=e405]: Gretchen Schultz
+            - generic [ref=e406]: One-to-one at Schinner - Farrell
+          - generic "2026-01-20T19:02:48.179Z" [ref=e408]:
+            - text: last activity yesterday at 7:02 PM
+            - generic [ref=e409]:
+              - generic: Hot
+        - link "Becky Okuneva Synergistic at Padberg, Bashirian and Wilkinson - 2 tasks last activity yesterday at 6:47 PM In Contract" [ref=e411] [cursor=pointer]:
+          - /url: "#/contacts/133/show"
+          - checkbox [ref=e412]
+          - img [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Becky Okuneva
+            - generic [ref=e417]: Synergistic at Padberg, Bashirian and Wilkinson - 2 tasks
+          - generic "2026-01-20T18:47:33.851Z" [ref=e419]:
+            - text: last activity yesterday at 6:47 PM
+            - generic [ref=e420]:
+              - generic: In Contract
+        - link "HO Harley Ondricka Front-end at Keebler - Kub last activity yesterday at 6:22 PM In Contract" [ref=e422] [cursor=pointer]:
+          - /url: "#/contacts/161/show"
+          - checkbox [ref=e423]
+          - generic [ref=e425]: HO
+          - generic [ref=e426]:
+            - generic [ref=e427]: Harley Ondricka
+            - generic [ref=e428]: Front-end at Keebler - Kub
+          - generic "2026-01-20T18:22:08.999Z" [ref=e430]:
+            - text: last activity yesterday at 6:22 PM
+            - generic [ref=e431]:
+              - generic: In Contract
+        - link "CO Charlene Olson Ubiquitous at Marvin, Pacocha and Roberts - 1 task vip holiday-card last activity yesterday at 5:57 PM Hot" [ref=e433] [cursor=pointer]:
+          - /url: "#/contacts/461/show"
+          - checkbox [ref=e434]
+          - generic [ref=e436]: CO
+          - generic [ref=e437]:
+            - generic [ref=e438]: Charlene Olson
+            - generic [ref=e439]:
+              - text: Ubiquitous at Marvin, Pacocha and Roberts - 1 task
+              - generic [ref=e442]:
+                - generic [ref=e443]: vip
+                - generic [ref=e444]: holiday-card
+          - generic "2026-01-20T17:57:32.321Z" [ref=e446]:
+            - text: last activity yesterday at 5:57 PM
+            - generic [ref=e447]:
+              - generic: Hot
+    - generic [ref=e449]:
+      - generic [ref=e450]:
+        - paragraph [ref=e451]: "Rows per page:"
+        - combobox [ref=e452] [cursor=pointer]:
+          - generic: "25"
+          - img
+      - generic [ref=e453]: 1-25 of 500
+      - navigation "pagination" [ref=e454]:
+        - list [ref=e455]:
+          - listitem [ref=e456]:
+            - img "Go to previous page" [ref=e458]
+          - listitem [ref=e460]:
+            - link "1" [ref=e461] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e462]:
+            - link "2" [ref=e463] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e464]:
+            - link "3" [ref=e465] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e466]:
+            - link "4" [ref=e467] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e468]:
+            - link "5" [ref=e469] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e470]:
+            - generic [ref=e471]:
+              - img [ref=e472]
+              - generic [ref=e476]: More pages
+          - listitem [ref=e477]:
+            - link "20" [ref=e478] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e479]:
+            - link "Go to next page" [ref=e480] [cursor=pointer]:
+              - /url: "#"
+              - img
+  - region "Notifications alt+T"
+```

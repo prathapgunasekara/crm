@@ -34,6 +34,7 @@ import {
 
 import { contactOptionText } from "../misc/ContactOption";
 import { useConfigurationContext } from "../root/ConfigurationContext";
+import { useTaskReminders } from "@/hooks/useTaskReminders";
 
 export const AddTask = ({
   selectContact,
@@ -49,11 +50,13 @@ export const AddTask = ({
   const { taskTypes } = useConfigurationContext();
   const contact = useRecordContext();
   const [open, setOpen] = useState(false);
+  const { addReminder } = useTaskReminders();
   const handleOpen = () => {
     setOpen(true);
   };
 
   const handleSuccess = async (data: any) => {
+    addReminder(data);
     setOpen(false);
     const contact = await dataProvider.getOne("contacts", {
       id: data.contact_id,
@@ -112,13 +115,17 @@ export const AddTask = ({
           sales_id: identity.id,
         }}
         transform={(data) => {
-          const dueDate = new Date(data.due_date);
-          dueDate.setHours(0, 0, 0, 0);
-          data.due_date = dueDate.toISOString();
-          return {
-            ...data,
-            due_date: new Date(data.due_date).toISOString(),
-          };
+          if (data.due_date) {
+            const dueDate = new Date(data.due_date);
+            dueDate.setHours(0, 0, 0, 0);
+            data.due_date = dueDate.toISOString();
+          }
+          if (data.reminder_date) {
+            const reminderDate = new Date(data.reminder_date);
+            reminderDate.setHours(9, 0, 0, 0); // Default to 9 AM
+            data.reminder_date = reminderDate.toISOString();
+          }
+          return data;
         }}
         mutationOptions={{ onSuccess: handleSuccess }}
       >
@@ -162,12 +169,13 @@ export const AddTask = ({
                   </ReferenceInput>
                 )}
 
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid grid-cols-3 gap-4">
                   <DateInput
                     source="due_date"
                     helperText={false}
                     validate={required()}
                   />
+                  <DateInput source="reminder_date" helperText={false} />
                   <SelectInput
                     source="type"
                     validate={required()}

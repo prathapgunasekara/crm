@@ -148,6 +148,7 @@ export type Task = {
   type: string;
   text: string;
   due_date: string;
+  reminder_date?: string;
   done_date?: string | null;
   sales_id?: Identifier;
 } & Pick<RaRecord, "id">;

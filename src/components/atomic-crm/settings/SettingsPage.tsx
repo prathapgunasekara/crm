@@ -24,6 +24,7 @@ import {
 import ImageEditorField from "../misc/ImageEditorField";
 import type { CrmDataProvider } from "../providers/types";
 import type { Sale, SalesFormData } from "../types";
+import { DataImportWizard } from "./DataImportWizard";
 
 export const SettingsPage = () => {
   const [isEditMode, setEditMode] = useState(false);
@@ -199,6 +200,7 @@ const SettingsForm = ({
           </CardContent>
         </Card>
       )}
+      <DataImportWizard />
     </div>
   );
 };

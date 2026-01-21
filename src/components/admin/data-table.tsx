@@ -280,7 +280,7 @@ const DataTableRow = ({
   );
 };
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 const isPromise = (value: any): value is Promise<any> =>
   value && typeof value.then === "function";
 

@@ -37,7 +37,7 @@ import { Badge } from "@/components/ui/badge";
  *     </Show>
  * );
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 export const SingleFieldList = <RecordType = any,>({
   children,
   render,

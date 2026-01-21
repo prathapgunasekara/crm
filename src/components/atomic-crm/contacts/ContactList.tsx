@@ -48,7 +48,7 @@ const ContactListLayout = () => {
   if (!data?.length && !hasFilters) return <ContactEmpty />;
 
   return (
-    <div className="flex flex-row gap-8">
+    <div className="flex flex-col md:flex-row gap-8">
       <ContactListFilter />
       <div className="w-full flex flex-col gap-4">
         <Card className="py-0">
